@@ -97,4 +97,10 @@ p {
   p {
     font-size: 16px;
   }
+  .email {
+    font-size: 18px;
+  }
+  .mobile {
+    padding: 20px;
+  }
 }
