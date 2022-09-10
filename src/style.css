@@ -1,0 +1,100 @@
+:root {
+  --primary-color: #6c63ff;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+body {
+  margin-top: 60px;
+}
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+h1 {
+  font-size: 96px;
+}
+h2 {
+  font-size: 48px;
+}
+h3 {
+  font-size: 24px;
+  opacity: 0.7;
+}
+p {
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+.about-paragraphs {
+  margin: 30px 0;
+}
+.navigation-links {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.weather-link {
+  display: flex;
+  justify-content: end !important;
+}
+.yoga-link,
+.yogurt-link {
+  display: flex;
+  justify-content: start !important;
+}
+.navigation-links a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.primary-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+.primary-link:hover {
+  color: white !important;
+}
+.secondary-link {
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+}
+.secondary-link:hover {
+  color: var(--primary-color);
+}
+.email {
+  color: var(--primary-color);
+  display: flex;
+  justify-content: center;
+  font-size: 28px;
+  text-decoration: none;
+}
+.email:hover {
+  color: var(--primary-color);
+  text-decoration: underline;
+}
+.text-center {
+  text-align: center !important;
+}
+
+@media (max-width: 393px) {
+  h1 {
+    font-size: 48px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  p {
+    font-size: 16px;
+  }
+}
