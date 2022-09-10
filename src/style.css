@@ -84,7 +84,7 @@ p {
   text-align: center !important;
 }
 
-@media (max-width: 393px) {
+@media (max-width: 592px) {
   h1 {
     font-size: 48px;
   }
